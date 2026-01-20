@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box {
+     padding: 10px;
+    border: 1px solid black;
+   
+    background-color: lightgray;
+}
