@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Nature Gallery</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Fun Nature Gallery</h1>
+        <p>Explore beautiful free nature photos while learning CSS Grid!</p>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Landscapes</a>
+            <a href="#">Forests</a>
+            <a href="#">Mountains</a>
+            <a href="#">Water</a>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <aside class="sidebar">
+            <h3>Filter Nature</h3>
+            <div class="filter-section">
+                <p>Try selecting:</p>
+                <ul>
+                    <li><input type="checkbox" id="forest"> <label for="forest">Forest</label></li>
+                    <li><input type="checkbox" id="mountains"> <label for="mountains">Mountains</label></li>
+                    <li><input type="checkbox" id="water"> <label for="water">Water</label></li>
+                </ul>
+            </div>
+
+            <div class="info-text">
+                <h4>Why this is perfect for Grid class:</h4>
+                <ul>
+                    <li><strong>main</strong> is already a 2-column grid (sidebar + gallery).</li>
+                    <li><strong>.gallery</strong> is a responsive grid of cards, perfect for practicing:
+                        <ul>
+                            <li>grid-template-columns</li>
+                            <li>grid-gap / gap</li>
+                            <li>justify-items / align-items</li>
+                        </ul>
+                    </li>
+                    <li>Hover effects make it interactive and fun.</li>
+                    <li>Students can add their favorite nature images and experiment.</li>
+                    <li>Sidebar filters give a "real gallery feel".</li>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="gallery">
+            <div class="card">
+                <img src="https://picsum.photos/id/10/300/300" alt="Forest Path">
+                <div class="card-caption">Forest Path</div>
+            </div>
+
+            <div class="card">
+                <img src="https://picsum.photos/id/11/300/300" alt="Mountain Lake">
+                <div class="card-caption">Mountain Lake</div>
+            </div>
+
+            <div class="card">
+                <img src="https://placehold.co/300x300?text=Sunset+Road" alt="Sunset Road">
+                <div class="card-caption">Sunset Road</div>
+            </div>
+
+            <div class="card">
+                <img src="https://picsum.photos/id/15/300/300" alt="Waterfall View">
+                <div class="card-caption">Waterfall View</div>
+            </div>
+
+            <div class="card">
+                <img src="https://placehold.co/300x300?text=Green+Forest" alt="Green Forest">
+                <div class="card-caption">Green Forest</div>
+            </div>
+
+            <div class="card">
+                <img src="https://picsum.photos/id/28/300/300" alt="Sunset Beach">
+                <div class="card-caption">Sunset Beach</div>
+            </div>
+        </main>
+
+    </div>
+
+    <footer>
+        &copy; 2026 Nature Gallery — CSS Grid Practice!
+    </footer>
+
+</body>
+
+</html>
