@@ -1,4 +1,6 @@
-<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/fbe4b0fb-2358-4fe4-82a1-8e25f40e36af" />
+
+<img width="1470" height="956" alt="Screenshot 2026-01-21 at 11 30 10 PM" src="https://github.com/user-attachments/assets/80c90acd-6e8c-4cb6-9fd1-bd5acbbb40b5" />
+
 
 
 added code of each tasks 
